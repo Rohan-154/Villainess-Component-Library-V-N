@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik:ital,wght@1,300&display=swap');
+@import url('/Landing-Page-CSS/body.css');
+@import url('/Landing-Page-CSS/nav.css');
+
+:root {
+    --primary-text-color: #CC0033;
+    --btn-bg-color: #DF1F2D;
+    --white-color: #fff;
+    --text-color: #333333;
+    --bg-primary-color: #b3b3cc;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0e0eb;
+}
+
+* {
+    box-sizing: border-box;
+}
