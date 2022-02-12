@@ -1,0 +1,75 @@
+.Badges-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.badge-component {
+    position: relative;
+    color: var(--text-color);
+
+}
+
+.badges {
+    position: absolute;
+    background-color: var(--primary-color);
+    padding: 4px 9px;
+    border-radius: 36px;
+    color: var(--white-color);
+    bottom: 10px;
+}
+
+.large-badge {
+    padding: 8px 13px;
+    font-size: large;
+}
+
+.badge-btn {
+    background-color: var(--btn-color);
+    color: var(--white-color);
+    padding: 7px 10px;
+    border-radius: 5px;
+}
+
+.float-btn-left {
+    left: 160px;
+    bottom: 20px;
+
+}
+
+.float-btn-right {
+    bottom: 20px;
+}
+
+.badge-icon {
+    padding: 2px 7px;
+    border-radius: 39px;
+    left: 185px;
+    top: -10px;
+    bottom: 17px;
+
+}
+
+.Badge-Wraper {
+    position: relative;
+}
+
+.Badge-Avtar-Status {
+    position: absolute;
+    padding: 8px;
+    border-radius: 50%;
+}
+
+.status-postion-left {
+    right: 3px;
+    bottom: 5px;
+}
+
+.green-color {
+    background-color: var(--green-color);
+}
+
+.pink-color {
+    background-color: var(--pink-color);
+}
