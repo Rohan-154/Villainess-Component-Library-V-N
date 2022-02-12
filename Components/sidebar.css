@@ -23,7 +23,7 @@
 }
 
 .routing:hover {
-    border-bottom: 3px solid var(--Primary-color);
+    border-bottom: 3px solid var(--primary-color);
 }
 
 @media screen and (max-width: 700px) {

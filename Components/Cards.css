@@ -1,0 +1,107 @@
+.all-card-collection {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px 29px
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    background-color: var(--white-color);
+    border-radius: 7px;
+    box-shadow: 1px 2px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.main-body .card-title {
+    margin: 5px 12px;
+    color: var(--primary-color);
+}
+
+.main-body>p {
+    margin: 0px 0px 15px 12px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    padding: 0 3px;
+    margin-bottom: 10px;
+    justify-content: flex-start;
+}
+
+.footer-card>button {
+    border: none;
+    padding: 1rem;
+    background-color: var(--white-color);
+    font-size: medium;
+    font-weight: bold;
+}
+
+.btn-primary-card {
+    color: var(--no-style-btn-color-card);
+    cursor: pointer;
+}
+
+.icons-card:hover,
+.icons-card:focus {
+    cursor: pointer;
+    transition: 0.35s;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    color: var(--white-color);
+}
+
+.btn-primary-card:focus {
+    background-color: var(--no-style-btn-bg-color-card);
+    border-radius: 5px;
+}
+
+.flex-change {
+    justify-content: flex-end;
+}
+
+.card-container-row-direction {
+    display: flex;
+    align-items: center;
+}
+
+.small-font-size {
+    font-size: medium;
+}
+
+.wrap-up {
+    position: relative;
+}
+
+.changed-position {
+    position: absolute;
+    bottom: 2.5rem;
+    color: var(--white-color);
+    font-weight: bolder;
+}
+
+.changed-position-2 {
+    position: absolute;
+    bottom: 0.5rem;
+    color: var(--white-color);
+    font-weight: bolder;
+
+}
+
+.basic-image {
+    width: 350px;
+    height: 200px;
+}
+
+.change-in-bg-width {
+    width: 150px;
+    height: 100px;
+}
+
+.h1yo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
