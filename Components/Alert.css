@@ -37,5 +37,5 @@
     align-items: center;
 }
 .link-text-primary{
-    border-bottom: 2px solid var(--Primary-color);
+    border-bottom: 2px solid var(--primary-color);
 }
