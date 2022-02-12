@@ -20,11 +20,12 @@
     --secondary-color: #ccccb3;
     --btn-color: #2B3784;
     --white-color: #fff;
-    --Primary-color: #CC0033;
+    --primary-color: #CC0033;
     --body-bg-color: #e0e0eb;
     --btn-hover-color: #990033;
-    --No-style-btn-color-card: #660033;
-    --No-style-btn-bg-color-card: #b1131375;
+    --no-style-btn-color-card: #660033;
+    --no-style-btn-bg-color-card: #b1131375;
+    --light-gray: lightgray;
 }
 
 body {
@@ -39,11 +40,9 @@ body {
   width: 6px; /* width of the entire scrollbar */
 }
 ::-webkit-scrollbar-track {
-  /* background: rgb(6, 7, 6);  */
   background: var(--white-color); 
 }
 ::-webkit-scrollbar-thumb {
-   /* background-color: blue;  */
   background-color: #660033;  
 }
 

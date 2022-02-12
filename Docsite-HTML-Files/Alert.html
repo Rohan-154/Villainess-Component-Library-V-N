@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Alert-Component </title>
+  <link rel="stylesheet" href="/Components/Villainess.css">
+  <script src="https://kit.fontawesome.com/c9ffd32afb.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- Navbar -->
+
+  <nav class="land-navbar">
+    <h1 class="land-heading-title">
+      V / N <br />
+      <span class="land-quote-div"> Design As You Desire </span>
+    </h1>
+
+    <a class="land-hamburgerBtn"> <i class="fas fa-bars fa-lg"></i></a>
+
+    <div class="land-navbar-links">
+      <ul class="ul-landing-page">
+        <li class="li-landing-page">
+          <a href="/" class="landing-page-link"> Home </a>
+        </li>
+        <li class="li-landing-page">
+          <a href="/" class="landing-page-link"> Documentation </a>
+        </li>
+      </ul>
+    </div>
+    <div class="land-social-link-nav">
+      <a href="/" class="social-landing-page">
+        <i class="fab fa-github fa-lg"></i>
+      </a>
+      <a href="/" class="social-landing-page">
+        <i class="fab fa-twitter fa-lg"></i>
+      </a>
+      <a href="/" class="social-landing-page">
+        <i class="fab fa-linkedin fa-lg"></i>
+      </a>
+    </div>
+  </nav>
+
+  <!-- Sidebar -->
+  <div class="side-wrapper">
+    <aside class="sidebar-doc">
+      <ul>
+        <li class="list-sidebar"><a href="/Docsite-HTML-Files/Avatar.html" class="routing active"> Avatar </a></li>
+        <li class="list-sidebar"><a href="/Docsite-HTML-Files/Alert.html" class="routing"> Alert </a></li>
+        <li class="list-sidebar"><a href="/Docsite-HTML-Files/Button.html" class="routing"> Button </a> </li>
+        <li class="list-sidebar"><a href="/Docsite-HTML-Files/Card.html" class="routing"> Cards </a> </li>
+        <li class="list-sidebar"><a href="/Docsite-HTML-Files/Badges.html" class="routing"> Badges </a> </li>
+        <li class="list-sidebar"><a href="/Docsite-HTML-Files/Drawer.html" class="routing"> Drawer </a> </li>
+        <li class="list-sidebar"><a href="/Docsite-HTML-Files/Toast.html" class="routing"> Toast </a> </li>
+        <li class="list-sidebar"><a href="/Docsite-HTML-Files/Toast.html" class="routing"> Toast </a> </li>
+        <li class="list-sidebar"><a href="/Docsite-HTML-Files/Toast.html" class="routing"> Toast </a> </li>
+        <li class="list-sidebar"><a href="/Docsite-HTML-Files/Toast.html" class="routing"> Toast </a> </li>
+      </ul>
+    </aside>
+    <!-- alert message with a custom link -->
+
+    <main class="Alert-wrapper">
+
+      <h1> Alerts </h1>
+      <p> Alerts are used to attract user's attention for important information without interrupting the user's flow.
+      </p>
+
+      <h3> Example of Alert Bar without close button </h3>
+
+      <p> There are 5 types of standard alert messages basically <strong> Success Alert , Error Alert, Warning Alert,
+          Primary Alert and Secondary Alert</strong></p>
+      <p>To use these alerts messages use a common class <strong> alert-box </strong> and then use the classes as per
+        the type as displayed below. <strong> primary-alert, secondary-alert, success-alert, danger-alert, warning-alert
+          (e.g.class="alert-box secondary-alert") </strong> </p>
+
+      <div class="display-com-alert">
+
+        <div class="alert-box primary-alert">
+          A primary alert example with a text link
+          <a href="" class="text-link link-text-primary"> Check it out </a>
+        </div>
+
+        <!-- Secondary Alert -->
+        <div class="alert-box secondary-alert">
+          A secondary alert example!!!
+        </div>
+
+        <!-- A success alert message -->
+
+        <div class="alert-box success-alert">
+          <i class="fas fa-check-circle"></i> A success alert example!!!
+        </div>
+
+        <!-- A danger alert message -->
+
+        <div class="alert-box danger-alert">
+          <i class="fas fa-exclamation-triangle"></i> A danger alert example!!!
+        </div>
+        <!-- Warning alert message -->
+
+        <div class="alert-box warning-alert">
+          <i class="fas fa-exclamation-triangle"></i> A warning alert example!!!
+        </div>
+
+      </div>
+      <iframe
+        src="https://carbon.now.sh/embed?bg=rgba%28224%2C224%2C235%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert-box%2520primary-alert%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520A%2520primary%2520alert%2520example%2520with%2520a%2520text%2520link%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%2520class%253D%2522text-link%2520link-text-primary%2522%253E%2520Check%2520it%2520out%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert-box%2520secondary-alert%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520A%2520secondary%2520alert%2520example%21%21%21%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert-box%2520success-alert%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-check-circle%2522%253E%253C%252Fi%253E%2520A%2520success%2520alert%2520example%21%21%21%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert-box%2520danger-alert%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2522%253E%253C%252Fi%253E%2520A%2520danger%2520alert%2520example%21%21%21%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert-box%2520warning-alert%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2522%253E%253C%252Fi%253E%2520A%2520warning%2520alert%2520example%21%21%21%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+        style="width: 841px; height: 577px; border:0; transform: scale(1); overflow:hidden;"
+        sandbox="allow-scripts allow-same-origin">
+      </iframe>
+      <h3></h3>
+    </main>
+
+  </div>
+  <!-- footer -->
+  
+  <div class="footer-basic">
+    <footer>
+      <p class="signature"> Made with <i class="fas fa-code"></i> by Rohan Dubey </p>
+      <div class="social"><a href="/"> <i class="fab fa-github fa-lg"></i> </a>
+        <a href="/"> <i class="fab fa-twitter fa-lg"></i> </a>
+        <a href="/"> <i class="fab fa-linkedin fa-lg"></i> </a>
+        <p class="copyright">Villainess © 2022 </p>
+</body>
+
+</html>
