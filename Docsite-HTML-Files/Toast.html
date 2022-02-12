@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Toast Component</title>
+    <link rel="stylesheet" href="/Components/Villainess.css" />
+    <script src="https://kit.fontawesome.com/c9ffd32afb.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+
+    <nav class="land-navbar">
+        <h1 class="land-heading-title">
+            V / N <br />
+            <span class="land-quote-div"> Design As You Desire </span>
+        </h1>
+
+        <a class="land-hamburgerBtn"> <i class="fas fa-bars fa-lg"></i></a>
+
+        <div class="land-navbar-links">
+            <ul class="ul-landing-page">
+                <li class="li-landing-page">
+                    <a href="/" class="landing-page-link"> Home </a>
+                </li>
+                <li class="li-landing-page">
+                    <a href="/" class="landing-page-link"> Documentation </a>
+                </li>
+            </ul>
+        </div>
+        <div class="land-social-link-nav">
+            <a href="/" class="social-landing-page">
+                <i class="fab fa-github fa-lg"></i>
+            </a>
+            <a href="/" class="social-landing-page">
+                <i class="fab fa-twitter fa-lg"></i>
+            </a>
+            <a href="/" class="social-landing-page">
+                <i class="fab fa-linkedin fa-lg"></i>
+            </a>
+        </div>
+    </nav>
+    <!-- Sidebar -->
+    <div class="side-wrapper">
+
+        <aside class="sidebar-doc">
+            <ul>
+                <li class="list-sidebar"><a href="/Docsite-HTML-Files/Avatar.html" class="routing active"> Avatar </a>
+                </li>
+                <li class="list-sidebar"><a href="/Docsite-HTML-Files/Alert.html" class="routing"> Alert </a></li>
+                <li class="list-sidebar"><a href="/Docsite-HTML-Files/Button.html" class="routing"> Button </a> </li>
+                <li class="list-sidebar"><a href="/Docsite-HTML-Files/Card.html" class="routing"> Cards </a> </li>
+                <li class="list-sidebar"><a href="/Docsite-HTML-Files/Badges.html" class="routing"> Badges </a> </li>
+                <li class="list-sidebar"><a href="/Docsite-HTML-Files/Drawer.html" class="routing"> Drawer </a> </li>
+                <li class="list-sidebar"><a href="/Docsite-HTML-Files/Toast.html" class="routing"> Toast </a> </li>
+                <li class="list-sidebar"><a href="/Docsite-HTML-Files/Toast.html" class="routing"> Toast </a> </li>
+                <li class="list-sidebar"><a href="/Docsite-HTML-Files/Toast.html" class="routing"> Toast </a> </li>
+                <li class="list-sidebar"><a href="/Docsite-HTML-Files/Toast.html" class="routing"> Toast </a> </li>
+            </ul>
+        </aside>
+
+
+
+        <main class="wrapper-toast">'
+            <h1> Toasts </h1>
+            <p> Toast is mostly used to show feedback messages. </p>
+            <p> Add <strong> toast </strong> class to youir html element and then add extra class as per required
+                design.</p>
+            There are generally 3 types of toast:<strong> toast-success, toast-error, and toast-info. </strong>
+            <p> Toast Sample :</p>
+
+            <div class="display-com-toast">
+                <div class="toast toast-success">
+                    Saved!
+                    <button class="btn btn-close">
+                        <i class="fas fa-times fa-lg"></i>
+                    </button>
+                </div>
+
+                <!-- not saved -->
+
+                <div class="toast toast-error">
+                    Not Saved! Try again later.
+                    <button class="btn btn-close">
+                        <i class="fas fa-times fa-lg"></i>
+                    </button>
+                </div>
+
+                <!-- information toast -->
+
+                <div class="toast toast-info">
+                    Saving...
+                    <button class="btn btn-close">
+                        <i class="fas fa-times fa-lg"></i>
+                    </button>
+                </div>
+                <!--  Example of toast functioning -->
+
+
+            </div>
+            <h2> Code Snippet for Toast: </h2>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28224%2C224%2C235%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=699.75&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522display-com-alert%2522%253E%250A%2520%2520%2520%2520%253C%21--%2520success%2520toast%2520--%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast%2520toast-success%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Saved%21%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-close%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2520fa-lg%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%253C%21--%2520not%2520saved%2520--%253E%250A%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast%2520toast-error%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Not%2520Saved%21%2520Try%2520again%2520later.%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-close%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2520fa-lg%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%253C%21--%2520information%2520toast%2520--%253E%250A%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast%2520toast-info%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Saving...%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-close%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2520fa-lg%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                style="width: 700px; height: 670px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+
+            <h2> Sample Toast </h2>
+            <p> Click on the button to see preview of toast. </p>
+            <div class="display-com-toast">
+                <button class="btn-com btn-primary-solid" id="show-toast-sample">
+                    Click Here
+                </button>
+            </div>
+            <h2> Code Snippet: </h2>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28224%2C224%2C235%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=699.75&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522display-com-toast%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-com%2520btn-primary-solid%2522%2520id%253D%2522show-toast-sample%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Click%2520Here%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%253Cdiv%2520class%253D%2522toast%2520toast-success%2520toast-fixed%2522%2520id%253D%2522toast-sample-success%2522%253E%250A%2520%2520%2520%2520Saved%21%250A%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-close%2522%2520id%253D%2522btn-close-toast%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2520fa-lg%2522%253E%2520%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E"
+                style="width: 700px; height: 465px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+
+            <h2> JavaScript </h2>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28224%2C224%2C235%2C1%29&t=cobalt&wt=none&l=javascript&width=699.75&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=const%2520toastSample%2520%253D%2520document.querySelector%28%27%2523toast-sample-success%27%29%250Aconst%2520btnShowToast%2520%253D%2520document.querySelector%28%27%2523show-toast-sample%27%29%250Aconst%2520btnCloseToast%2520%253D%2520document.querySelector%28%27%2523btn-close-toast%27%29%250A%250AtoastSample.style.display%2520%253D%2520%27none%27%250A%250Alet%2520autoCloseToast%250AbtnShowToast.addEventListener%28%27click%27%252C%2520%28%29%2520%253D%253E%2520%257B%250A%2520%2520toastSample.style.display%2520%253D%2520%27block%27%250A%2520%2520autoCloseToast%2520%253D%2520setTimeout%28%28%29%2520%253D%253E%2520%257B%250A%2520%2520%2520%2520toastSample.style.display%2520%253D%2520%27none%27%250A%2520%2520%257D%252C%25202000%29%250A%257D%29%250AbtnCloseToast.addEventListener%28%27click%27%252C%2520%28%29%2520%253D%253E%2520%257B%250A%2520%2520%252F%252F%2520clearTimeout%28autoCloseToast%29%253B%250A%2520%2520toastSample.style.display%2520%253D%2520%27none%27%250A%257D%29%250A"
+                style="width: 700px; height: 505px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </main>
+    </div>
+
+    <div class="toast toast-success toast-fixed" id="toast-sample-success">
+        Saved!
+
+        <button class="btn btn-close" id="btn-close-toast">
+            <i class="fas fa-times fa-lg"> </i>
+        </button>
+    </div>
+    <!-- footer  -->
+    <div class="footer-basic">
+        <footer>
+            <p class="signature"> Made with <i class="fas fa-code"></i> by Rohan Dubey </p>
+            <div class="social"><a href="/"> <i class="fab fa-github fa-lg"></i> </a>
+                <a href="/"> <i class="fab fa-twitter fa-lg"></i> </a>
+                <a href="/"> <i class="fab fa-linkedin fa-lg"></i> </a>
+                <p class="copyright">Villainess © 2022 </p>
+            </div>
+            <script src="/sidebar.js"></script>
+
+        </footer>
+    </div>
+    <script src="/sidebar.js"></script>
+
+    </footer>
+
+
+
+    <script src="/Docsite-JS/toast.js"></script>
+</body>
+
+</html>
