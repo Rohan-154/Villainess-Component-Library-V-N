@@ -1,0 +1,37 @@
+.side-wrapper {
+    display: flex;
+}
+
+.sidebar-doc {
+    min-width: 200px;
+}
+
+.list-sidebar {
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    list-style: none;
+    width: 200px;
+}
+
+.routing {
+    color: var(--text-color);
+    padding: 10px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    font-size: large;
+}
+
+.routing:hover {
+    border-bottom: 3px solid var(--Primary-color);
+}
+
+@media screen and (max-width: 700px) {
+    .sidebar-doc {
+        display: none;
+    }
+
+    .Avatar-wrapper {
+        min-width: 300px;
+    }
+}
