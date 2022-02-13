@@ -20,7 +20,7 @@
     height: 40px;
 }
 .bg-color{
-background-color: var(--Primary-color);
+background-color: var(--primary-color);
 color: var(--white-color);
 }
 .round-img{
