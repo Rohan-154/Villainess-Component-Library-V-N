@@ -9,6 +9,7 @@
 @import url("/Components/reset.css");
 @import url("/Components/sidebar.css");
 @import url("/Components/install.css");
+@import url("/Components/input.css");
 
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
 
@@ -60,7 +61,7 @@ strong{
 .spacer-2rem{
   margin-bottom: 2rem;
 }
-.line-height-rem{
+p{
   line-height: 1.5;
 }
 .font-size-handle{
