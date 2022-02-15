@@ -1,0 +1,10 @@
+.image-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 1000px;
+}
+.responsive-img {
+    max-width: 50%;
+    height: auto;
+  }
