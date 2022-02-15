@@ -1,0 +1,8 @@
+.install-wrapper{
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+}
+.install-page-heading{
+    margin-top: 1.5rem;
+}

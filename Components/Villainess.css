@@ -8,8 +8,9 @@
 @import url("/Landing-Page-CSS/styles.css");
 @import url("/Components/reset.css");
 @import url("/Components/sidebar.css");
+@import url("/Components/install.css");
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
 
 :root {
     --text-color: #333333;
@@ -31,7 +32,7 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+  font-family: 'Fira Sans', sans-serif;
 }
 * {
     padding: 0;
@@ -47,4 +48,24 @@ body {
 ::-webkit-scrollbar-thumb {
   background-color: #660033;  
 }
-
+strong{
+  color: var(--primary-color);
+}
+.sidebar-heading{
+  color: var(--primary-color);
+}
+.spacer-3rem{
+  margin-bottom: 3rem;
+}
+.spacer-2rem{
+  margin-bottom: 2rem;
+}
+.line-height-rem{
+  line-height: 1.5;
+}
+.font-size-handle{
+  font-size: large;
+}
+.active{
+  border-bottom: 3px solid var(--primary-color);
+}

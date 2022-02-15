@@ -3,69 +3,61 @@
 }
 
 .img-index {
-    width: 50%;
+    width: 40%;
+    height: 450px;
+    margin-left: 50px;
 }
 
 .heading-description {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    margin: 1rem;
-    justify-content: center;
+    margin: 4rem;
+    justify-content: flex-start;
 }
 
 .des-landing {
     font-size: large;
+    letter-spacing: .5px;
 }
 
 .heading-topic {
     color: var(--primary-text-color);
-    font-size: 1.75rem;
+    font-size: 3rem;
 }
 
 .install {
-    margin-right: 1rem;
     border-radius: .3rem;
-    padding: .4rem;
+    padding: .6rem;
     background-color: var(--btn-bg-color);
-    color: var(--white-color);
+    color: var(--text-color);
     font-size: larger;
     cursor: pointer;
-    margin-top: 10px;
+    font-weight: bolder;
 }
 
 .install:hover {
     background-color: var(--primary-text-color);
-}
-
-.documentation {
-    margin-right: 1rem;
-    border-radius: .3rem;
-    padding: .4rem;
-    font-size: larger;
-    cursor: pointer;
-    color: var(--primary-text-color);
-    margin-top: 10px;
-}
-
-.documentation:hover {
-    background-color: var(--btn-bg-color);
     color: var(--white-color);
+}
+
+.btn-wrapper {
+    margin-top: 1.5rem;
 }
 
 .doc-link {
     font-size: large;
 }
 
-.spacer-2rem {
-    margin-left: 1rem;
-    margin-bottom: 2rem;
+.spacer-1rem {
+    margin-bottom: 1rem;
 }
 
 .footer-basic {
     padding: 40px 0;
     color: var(--text-color);
     background-color: var(--bg-primary-color);
+    width: 100%;
+    height: 200px;
 }
 
 .footer-basic .social {
@@ -103,12 +95,23 @@
     text-align: center;
 }
 
+.img-index:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+
 @media screen and (max-width: 700px) {
     .documentation {
         margin-top: 1rem;
     }
 
-    .img-index {
+    .img-index-2 {
         display: none;
+
+    }
+    .img-index{
+        width: 30%;
+        height: 600px;
     }
 }
