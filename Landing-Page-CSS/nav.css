@@ -1,6 +1,13 @@
 .land-navbar {
     display: flex;
     align-items: center;
+    background-color: var(--light-gray);
+    border-bottom: 1px solid var(--text-color);
+    left: 0;
+    position: fixed;
+    /* top: 0; */
+    width: 100%;
+    z-index: 2;
 }
 
 .land-heading-title {

@@ -36,6 +36,7 @@
 
 body {
   font-family: 'Fira Sans', sans-serif;
+  overflow-x: hidden;
 }
 
 * {
@@ -114,6 +115,9 @@ p {
 .next-navigation:hover{
   color: var(--primary-color);
 }
+.width-divide{
+  margin-left: 250px;
+}
 @media screen and (max-width: 700px) {
   body {
     max-width: 650px;
@@ -121,5 +125,8 @@ p {
 
   iframe {
     width: 600px;
+  }
+  .width-divide{
+    margin-left: 10px;
   }
 }
