@@ -1,5 +1,6 @@
 .index-page-detail {
     display: flex;
+    margin-top: 6rem;
 }
 
 .img-index {
@@ -58,7 +59,7 @@
     background-color: var(--bg-primary-color);
     width: 100%;
     text-align: center;
-    margin-left: 230px;
+    /* margin-left: 230px; */
 }
 
 .footer-basic .social {
