@@ -13,22 +13,22 @@
     list-style-type: square;
 }
 
-.list-style-smAlpha {
+.list-style-small-Alpha {
     list-style-type: lower-alpha;
     padding: 15px;
 }
 
-.list-style-capAlpha {
+.list-style-capital-Alpha {
     list-style-type: upper-alpha;
     padding: 15px;
 }
 
-.list-style-smRoman {
+.list-style-small-Roman {
     list-style-type: lower-roman;
     padding: 15px;
 }
 
-.list-style-capRoman {
+.list-style-capital-Roman {
     list-style-type: upper-roman;
     padding: 15px;
 }
