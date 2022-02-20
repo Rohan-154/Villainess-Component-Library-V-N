@@ -99,7 +99,7 @@
     height: 100px;
 }
 
-.h1yo {
+.flex-card-wrap {
     display: flex;
     flex-direction: column;
     gap: 20px;
