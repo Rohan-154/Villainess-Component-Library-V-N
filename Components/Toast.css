@@ -46,8 +46,8 @@
 
 .toast-fixed {
     position: fixed;
-    top: 0px;
-    right: 0px;
+    top: 6rem;
+    right: 4rem;
 }
 
 .display-com-toast {
