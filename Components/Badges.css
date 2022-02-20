@@ -73,3 +73,8 @@
 .pink-color {
     background-color: var(--pink-color);
 }
+@media screen and (max-width: 700px){
+    .Badges-wrapper{
+        margin-top: 30px;
+    } 
+}

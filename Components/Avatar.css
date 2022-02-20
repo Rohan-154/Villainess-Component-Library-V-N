@@ -49,3 +49,8 @@
     padding: 30px;
     justify-content: space-between;
 }
+@media screen and (max-width: 700px){
+    .Avatar-wrapper{
+        margin-top: 30px;
+    } 
+}

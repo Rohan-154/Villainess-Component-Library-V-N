@@ -59,3 +59,8 @@
     justify-content: space-between;
     align-items: center;
 }
+@media screen and (max-width: 700px){
+    .wrapper-toast{
+        margin-top: 30px;
+    } 
+}

@@ -5,7 +5,6 @@
     border-bottom: 1px solid var(--text-color);
     left: 0;
     position: fixed;
-    /* top: 0; */
     width: 100%;
     z-index: 2;
 }
@@ -96,7 +95,7 @@
         display: flex;
         justify-content: left;
         margin-top: 10px;
-        
+
     }
 
     .land-navbar-links .li-landing-page .landing-page-link {

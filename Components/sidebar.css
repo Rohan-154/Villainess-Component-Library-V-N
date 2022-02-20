@@ -54,10 +54,6 @@
         display: flex;
         cursor: pointer;
     }
-    .btn-res-close{
-        display: block;
-    }
-
     .sidebar-doc {
         display: none;
         height: 100%;
