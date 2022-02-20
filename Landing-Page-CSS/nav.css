@@ -1,6 +1,13 @@
 .land-navbar {
     display: flex;
     align-items: center;
+    background-color: var(--light-gray);
+    border-bottom: 1px solid var(--text-color);
+    left: 0;
+    position: fixed;
+    /* top: 0; */
+    width: 100%;
+    z-index: 2;
 }
 
 .land-heading-title {
@@ -82,12 +89,14 @@
     .land-navbar-links .ul-landing-page {
         flex-direction: column;
         width: 100%;
+        margin-left: 10px;
     }
 
     .land-navbar-links .li-landing-page {
         display: flex;
         justify-content: left;
         margin-top: 10px;
+        
     }
 
     .land-navbar-links .li-landing-page .landing-page-link {

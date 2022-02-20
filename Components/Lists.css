@@ -1,0 +1,51 @@
+.list-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 1000px;
+}
+
+.style-circle {
+    list-style-type: circle;
+}
+
+.style-square {
+    list-style-type: square;
+}
+
+.list-style-smAlpha {
+    list-style-type: lower-alpha;
+    padding: 15px;
+}
+
+.list-style-capAlpha {
+    list-style-type: upper-alpha;
+    padding: 15px;
+}
+
+.list-style-smRoman {
+    list-style-type: lower-roman;
+    padding: 15px;
+}
+
+.list-style-capRoman {
+    list-style-type: upper-roman;
+    padding: 15px;
+}
+
+.list-style-none {
+    list-style: none;
+    padding-inline-start: 0;
+}
+
+.list-style-none.list-container {
+    padding-inline-start: 32px;
+}
+
+.inline-list {
+    display: flex;
+}
+
+.list-inline-item {
+    padding: 10px;
+}
