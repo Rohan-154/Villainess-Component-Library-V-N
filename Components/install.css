@@ -1,11 +1,13 @@
-.install-wrapper{
+.install-wrapper {
     display: flex;
     flex-direction: column;
     max-width: 900px;
 }
-.install-page-heading{
+
+.install-page-heading {
     margin-top: 1.5rem;
 }
-.install-wrapper .heading-topic{
+
+.install-wrapper .heading-topic {
     margin-top: 1.5rem;
 }

@@ -101,7 +101,8 @@ p {
   right: 1rem;
   color: var(--white-color);
 }
-.next-navigation{
+
+.next-navigation {
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -112,12 +113,15 @@ p {
   margin-right: 1.5rem;
   font-size: 1.5rem;
 }
-.next-navigation:hover{
+
+.next-navigation:hover {
   color: var(--primary-color);
 }
-.width-divide{
+
+.width-divide {
   margin-left: 250px;
 }
+
 @media screen and (max-width: 700px) {
   body {
     max-width: 650px;
@@ -126,7 +130,8 @@ p {
   iframe {
     width: 600px;
   }
-  .width-divide{
+
+  .width-divide {
     margin-left: 10px;
   }
 }
