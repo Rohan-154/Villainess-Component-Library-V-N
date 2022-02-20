@@ -87,7 +87,6 @@
     bottom: 0.5rem;
     color: var(--white-color);
     font-weight: bolder;
-
 }
 
 .basic-image {
@@ -100,7 +99,7 @@
     height: 100px;
 }
 
-.h1yo {
+.flex-card-wrap {
     display: flex;
     flex-direction: column;
     gap: 20px;
