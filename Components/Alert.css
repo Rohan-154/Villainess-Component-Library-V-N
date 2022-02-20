@@ -12,23 +12,28 @@
     border-radius: 10px;
     color: var(--text-color);
 }
-.primary-alert{
+
+.primary-alert {
     background-color: var(--primary-color-toast);
 }
-.secondary-alert{
+
+.secondary-alert {
     background-color: var(--secondary-color);
 }
 
-.success-alert{
+.success-alert {
     background-color: var(--success-color);
 }
-.danger-alert{
+
+.danger-alert {
     background-color: var(--danger-message-color);
 }
-.warning-alert{
+
+.warning-alert {
     background-color: var(--warning-color);
 }
-.display-com-alert{
+
+.display-com-alert {
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -37,6 +42,7 @@
     justify-content: space-between;
     align-items: center;
 }
-.link-text-primary{
+
+.link-text-primary {
     border-bottom: 2px solid var(--primary-color);
 }

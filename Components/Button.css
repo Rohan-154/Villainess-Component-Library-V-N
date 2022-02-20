@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     gap: 30px;
-    /* margin: 10px; */
     max-width: 1000px;
     margin-top: 100px;
 }
@@ -46,8 +45,9 @@
 }
 
 .btn-icon-text:hover,
-.btn-icon:hover {
-    color: var(--Primary-color);
+.btn-icon:hover,
+.primary-text:hover {
+    color: var(--primary-color);
 }
 
 .display-com-button {
