@@ -132,7 +132,7 @@ p {
   gap: 1rem;
 }
 .green-text{
-  color: lightgreen;
+  color: #03a685;
 }
 
 @media screen and (max-width: 700px) {
