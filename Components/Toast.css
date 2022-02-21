@@ -5,6 +5,7 @@
     margin: 10px;
     max-width: 1000px;
     margin-top: 100px;
+    min-width: 400px;
 }
 
 .toast {
@@ -59,8 +60,10 @@
     justify-content: space-between;
     align-items: center;
 }
-@media screen and (max-width: 700px){
-    .wrapper-toast{
+
+@media screen and (max-width: 750px) {
+    .wrapper-toast {
         margin-top: 30px;
-    } 
+    }
 }
+
