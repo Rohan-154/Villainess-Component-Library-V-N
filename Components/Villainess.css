@@ -134,6 +134,10 @@ p {
 .green-text{
   color: #03a685;
 }
+iframe{
+  max-width: 1100px;
+  height: auto;
+}
 
 @media screen and (max-width: 700px) {
   body {
@@ -141,7 +145,8 @@ p {
   }
 
   iframe {
-    width: 600px;
+    max-width: 700px;
+    height: auto;
   }
 
   .width-divide {
@@ -149,4 +154,9 @@ p {
   }
 }
 
-/* width: 598px; height: 356px; */
+@media screen and (max-width: 400px) {
+  iframe {
+    max-width: 400px;
+    height: auto;
+  }
+}
