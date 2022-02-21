@@ -134,6 +134,9 @@ p {
 .green-text{
   color: #03a685;
 }
+.red-text{
+  color: var(--primary-color);
+}
 .gist-github{
   max-width: 70vw;
   max-height: 400px;
