@@ -54,6 +54,9 @@
     border: 3px solid var(--light-gray);
     padding: 30px;
     margin-right: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
 @media screen and (max-width: 750px){
     .button-wrapper{
