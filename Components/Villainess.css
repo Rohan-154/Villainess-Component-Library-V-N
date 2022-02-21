@@ -121,6 +121,16 @@ p {
 .width-divide {
   margin-left: 250px;
 }
+.flex-wrap-row{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.flex-wrap-column{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
 
 @media screen and (max-width: 700px) {
   body {
