@@ -31,9 +31,6 @@ body {
     gap: 10px 10px;
 }
 
-.Drawer-heading {
-    margin: 5px 0px 10px 10px;
-}
 
 .fas .fa-bars {
     padding-right: 30px;
@@ -124,4 +121,10 @@ body {
 .side-wrapper-drawer{
     display: flex;
     flex-direction: column  ;
+}
+.modals-warpper{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 100px;
 }
