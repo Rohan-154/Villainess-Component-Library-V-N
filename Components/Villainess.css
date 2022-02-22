@@ -12,7 +12,7 @@
 @import url("/Components/input.css");
 @import url("/Components/Images.css");
 @import url("/Components/Lists.css");
-
+@import url("/Components/grids.css");
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
 
 :root {
