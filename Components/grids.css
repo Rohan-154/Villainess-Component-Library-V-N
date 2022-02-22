@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 50% 50%;
     max-width: 65rem;
-    grid-auto-rows: minmax(150px, auto);
+    grid-auto-rows: minmax(10rem, auto);
     margin: 0 auto;
     grid-gap: 2rem;
     
@@ -11,13 +11,13 @@
     margin-top: 7rem;
 }
 .one{
-    background: #3bbced;
+    background: var(--grid-odd-color);
     text-align: center;
     padding: 2rem;
     color: var(--white-color);
 }
 .two{
-    background: #777;
+    background: var(--grid-even-color);
     text-align: center;
     padding: 2rem;
     color: var(--white-color);
@@ -31,7 +31,7 @@
     display: grid;
     grid-template-columns: 70% 30%;
     max-width: 65rem;
-    grid-auto-rows: minmax(150px, auto);
+    grid-auto-rows: minmax(10rem, auto);
     margin: 0 auto;
     grid-gap: 2rem;  
 }
@@ -39,7 +39,7 @@
     display: grid;
     grid-template-columns: 30% 70%;
     max-width: 65rem;
-    grid-auto-rows: minmax(150px, auto);
+    grid-auto-rows: minmax(10rem, auto);
     margin: 0 auto;
     grid-gap: 2rem;  
 }

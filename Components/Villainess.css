@@ -32,6 +32,8 @@
   --light-gray: lightgray;
   --green-color: green;
   --pink-color: #ff66ff;
+  --grid-odd-color: #3bbced;
+  --grid-even-color: #777;
 }
 
 body {
