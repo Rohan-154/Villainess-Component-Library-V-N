@@ -4,15 +4,19 @@
 ## Installation Guide : 
 
 You can just copy the link of out StyleSheet and put it in head tag of your HTML file and start using styles.
+Visit [Installation](Visit [Documentation](https://villainess-cl-154.netlify.app/docsite-html-files/install) to learn more.) to see steps in details.
 
 Visit [Documentation](https://villainess-cl-154.netlify.app/docsite-html-files/install) to learn more.
+
+## Preview
+
 
 ## Villainess Provides you with following : 
 
 - [Avatar](https://villainess-cl-154.netlify.app/docsite-html-files/avatar)
 
   - Image Avatar
-    - Round Image Avatar
+  - Round Image Avatar
   - Text Avatar
 
 - [Alert](https://villainess-cl-154.netlify.app/docsite-html-files/alert)
@@ -28,7 +32,7 @@ Visit [Documentation](https://villainess-cl-154.netlify.app/docsite-html-files/i
   - Badge on avatar
   - Badge on icons
 
-- [Button](https://hydrogen-ui.netlify.app/docs/button.html)
+- [Button](https://villainess-cl-154.netlify.app/docsite-html-files/button)
 
   - Primary Button
   - Primary Outline Button
@@ -44,53 +48,41 @@ Visit [Documentation](https://villainess-cl-154.netlify.app/docsite-html-files/i
   - Text only card
   - Card with dismiss
 
-- [Image](https://hydrogen-ui.netlify.app/docs/image.html)
+- [Badges](https://villainess-cl-154.netlify.app/docsite-html-files/badgesl)
 
-  - Responsive Image
-  - Round Image
+  - Text Badges
+  - Status Badges
 
-- [Forms](https://hydrogen-ui.netlify.app/docs/form.html)
+- [Drawer](https://villainess-cl-154.netlify.app/docsite-html-files/modals)
 
-  - Simple form fields
-  - Form with validation
+  - Normal Flow Navigation Drawer
+  - Permanent Drawer
+  - Dismissible Drawer
 
-- [Typography](https://hydrogen-ui.netlify.app/docs/typography.html)
+- [Toast](https://villainess-cl-154.netlify.app/docsite-html-files/toast)
 
-  - Headings
-  - Text utility classes
+  - Success
+  - Failed
+  - Still Processing
 
-- [Snackbar](https://hydrogen-ui.netlify.app/docs/snackbar.html)
+- [Inputs](https://villainess-cl-154.netlify.app/docsite-html-files/input)
 
-  - Simple snackbar
-  - Stacked snackbar
+  - TextArea
+  - Input box Validation type Success and Error
+  - Input box with type = "datetime"
+  - Input box with type = "email"
+  - Slider with type = "range"
+  - Checkbox with type = "checkbox"
+  - Input with attribute = "disabled"
 
-- [Grid](https://hydrogen-ui.netlify.app/docs/grid.html)
+- [Images](https://villainess-cl-154.netlify.app/docsite-html-files/images)
 
-  - Grid 20-80 layout
-  - Grid 50-50 layout
-  - Grid three column layout
+  - Responsive Square Image
+  - Responsive Round Image
 
-- [Navigation](https://hydrogen-ui.netlify.app/docs/navigation.html)
+- [Lists](https://villainess-cl-154.netlify.app/docsite-html-files/lists)
 
-  - Simple Navigation
-
-- [List](https://hydrogen-ui.netlify.app/docs/list.html)
-
-  - Unordered list
-  - Ordered list
-  - Inline list
-  - Notification stacked list
-
-- [Modal](https://hydrogen-ui.netlify.app/docs/modal.html)
-
-  - Simple Modal
-
-- [Rating](https://hydrogen-ui.netlify.app/docs/rating.html)
-
-  - Read only Rating
-  - Live rating
-
-- [Slider](https://hydrogen-ui.netlify.app/docs/slider.html)
-  - Simple Slider
-  - Slider with label
-  - Slider with icon
+  - Unordered list with bullets
+  - Ordered List with bullets
+  - List with no bullets
+  - List with inline items.
