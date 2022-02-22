@@ -1,4 +1,4 @@
-body {
+.modal-body {
     display: flex;
     background-color: var(--body-bg-color);
     font-family: 'Roboto', sans-serif;

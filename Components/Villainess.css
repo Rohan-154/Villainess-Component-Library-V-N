@@ -34,6 +34,7 @@
   --pink-color: #ff66ff;
   --grid-odd-color: #3bbced;
   --grid-even-color: #777;
+  --black-color: black;
 }
 
 body {
@@ -49,6 +50,7 @@ body {
 
 ::-webkit-scrollbar {
   width: 6px;
+  height: 3px;
   /* width of the entire scrollbar */
 }
 
@@ -154,7 +156,7 @@ h1,h2{
 
 @media screen and (max-width: 750px) {
   body {
-    max-width: 650px;
+    /* max-width: 650px; */
 
   }
   .gist-github::-webkit-scrollbar {
