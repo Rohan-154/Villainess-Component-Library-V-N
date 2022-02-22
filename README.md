@@ -9,7 +9,7 @@ Visit [Installation](Visit [Documentation](https://villainess-cl-154.netlify.app
 Visit [Documentation](https://villainess-cl-154.netlify.app/docsite-html-files/install) to learn more.
 
 ## Preview
-
+![](https://github.com/Rohan-154/Villainess-Component-Library-V-N/blob/dev/images/preview.gif)
 
 ## Villainess Provides you with following : 
 
@@ -86,3 +86,9 @@ Visit [Documentation](https://villainess-cl-154.netlify.app/docsite-html-files/i
   - Ordered List with bullets
   - List with no bullets
   - List with inline items.
+- [Grid-Simplified](https://villainess-cl-154.netlify.app/docsite-html-files/grids)
+
+  - Grid 50-50 layout
+  - Grid 70-30 layout
+  - Grid 30-70 layout
+
