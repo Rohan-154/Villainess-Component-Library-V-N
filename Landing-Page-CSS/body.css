@@ -5,6 +5,7 @@
     max-width: 90vw;
     margin: 6rem auto 0rem;
 }
+
 .heading-description {
     display: flex;
     flex-direction: column;
@@ -94,7 +95,7 @@
 }
 
 .landing-img:hover {
-    transform: scale(0.9);
+    transform: scale(1.1);
     cursor: pointer;
 }
 
@@ -125,6 +126,7 @@
     .documentation {
         margin-top: 1rem;
     }
+
     .heading-topic {
         font-size: 1.5rem;
     }
@@ -132,20 +134,29 @@
     .des-landing {
         font-size: medium;
     }
-    .index-page-detail{
+
+    .index-page-detail {
         max-width: 1300px;
     }
 }
-@media screen and (max-width: 900px){
-   .heading-description{
+
+@media screen and (max-width: 900px) {
+    .heading-description {
         max-width: 800px;
+        margin-left: 1rem;
     }
-    .index-page-detail .landing-img:nth-child(1){
+
+    .index-page-detail .landing-img:nth-child(1) {
         display: none;
     }
 }
-@media screen and (max-width: 450px){
-    .index-page-detail{
+
+@media screen and (max-width: 450px) {
+    .index-page-detail {
         max-width: 100vw;
+    }
+
+    .heading-description {
+        margin-left: 1rem;
     }
 }
