@@ -14,7 +14,7 @@
 @import url("/Components/Lists.css");
 @import url("/Components/grids.css");
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
-
+@import url("/Components/typography.css");
 :root {
   --text-color: #333333;
   --danger-message-color: #ff4d4d;
@@ -35,6 +35,7 @@
   --grid-odd-color: #3bbced;
   --grid-even-color: #777;
   --black-color: black;
+  --gray-color: gray;
 }
 
 body {
@@ -150,7 +151,7 @@ p {
   width: 100%;
 }
 
-h1,h2{
+h1,h2,h3,h4,h5,h6{
   color: var(--primary-color);
 }
 

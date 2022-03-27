@@ -1,0 +1,33 @@
+.text-large{
+    font-size: 2rem;
+}
+.text-medium{
+    font-size: 1.5rem;
+}
+.text-small{
+    font-size: 0.8rem;
+}
+.text-regular{
+    font-size: 1rem;
+}
+.txt-light{
+    font-weight: 300;
+}
+.txt-regular{
+    font-weight: 600;
+}
+.txt-bold{
+    font-weight: 900;
+}
+.txt-gray{
+    color: var(--gray-color);
+}
+.txt-center{
+    text-align: center;
+}
+.txt-right{
+    text-align: right;
+}
+.txt-left{
+    text-align: left;
+}
