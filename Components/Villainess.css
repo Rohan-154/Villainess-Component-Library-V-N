@@ -15,6 +15,7 @@
 @import url("/Components/grids.css");
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
 @import url("/Components/typography.css");
+@import url("/Components/modal.css");
 :root {
   --text-color: #333333;
   --danger-message-color: #ff4d4d;
