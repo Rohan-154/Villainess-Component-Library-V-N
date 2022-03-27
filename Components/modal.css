@@ -1,17 +1,10 @@
-@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
-
-body {
-    /* background:#ddd; */
-    font-family: "Raleway";
-}
-
 .bottom-right {
-    /* position: absolute; */
-    margin: 30rem auto;
+    position: absolute;
+    margin: 50rem 30rem;
 }
 
 .center {
-    position: absolute;
+    /* position: absolute; */
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -36,9 +29,13 @@ body {
 
 .popup.activeModal {
     opacity: 1;
-    top: 50%;
     transform: translate(-50%, -50%) scale(1);
     transition: transform 300ms cubic-bezier(0.18, 0.89, 0.43, 1.19);
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    align-items: center;
+    margin-top: 13rem;
 }
 
 .popup .icon {
@@ -92,7 +89,7 @@ body {
 }
 
 .popup>div {
-    position: relative;
+    /* position: relative; */
     top: 10px;
     opacity: 0;
 }
@@ -120,4 +117,17 @@ body {
 
 .flex-btn {
     display: flex;
+}
+
+#open-popup-btn {
+    padding: 0.4rem;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    border: 1px solid var(--primary-color);
+    font-size: 1rem;
+}
+
+#open-popup-btn:hover {
+    background-color: var(--danger-message-color);
+    color: var(--white-color);
 }
