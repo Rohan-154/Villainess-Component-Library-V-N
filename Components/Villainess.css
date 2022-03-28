@@ -17,6 +17,7 @@
 @import url("/Components/typography.css");
 @import url("/Components/modal.css");
 @import url("/Components/Rating.css");
+@import url('/Components//Navigation.css');
 :root {
   --text-color: #333333;
   --danger-message-color: #ff4d4d;
