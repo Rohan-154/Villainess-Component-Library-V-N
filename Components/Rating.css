@@ -1,0 +1,48 @@
+ .checked {
+     color: var(--orange-color);
+ }
+ fieldset,
+ label {
+     margin: 0;
+     padding: 0;
+ }
+ .rating {
+     border: none;
+     float: left;
+ }
+
+ .rating>input {
+     display: none;
+ }
+
+ .rating>label:before {
+     margin: 5px;
+     font-size: 1.25em;
+     font-family: FontAwesome;
+     display: inline-block;
+     content: "\f005";
+ }
+
+ .rating>.half:before {
+     content: "\f089";
+     position: absolute;
+ }
+
+ .rating>label {
+     color: var(--text-color);
+     float: right;
+ }
+
+
+ .rating>input:checked~label,
+ .rating:not(:checked)>label:hover,
+ .rating:not(:checked)>label:hover~label {
+     color: var(--orange-color);
+ }
+
+ .rating>input:checked+label:hover,
+ .rating>input:checked~label:hover,
+ .rating>label:hover~input:checked~label,
+ .rating>input:checked~label:hover~label {
+     color: var(--orange-color);
+ }
