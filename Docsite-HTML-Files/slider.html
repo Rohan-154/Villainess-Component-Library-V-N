@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Docs | Ratings</title>
+    <title>Docs | Slider</title>
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico.png" />
     <link rel="stylesheet" href="/Components/Villainess.css" />
     <script
@@ -16,7 +16,6 @@
       crossorigin="anonymous"
     ></script>
   </head>
-
   <body>
     <!-- Navbar  -->
     <nav class="land-navbar">
@@ -138,9 +137,7 @@
             </a>
           </li>
           <li class="list-sidebar">
-            <a href="/Docsite-HTML-Files/Modal.html" class="routing active">
-              Modal
-            </a>
+            <a href="/Docsite-HTML-Files/Modal.html" class="routing"> Modal </a>
           </li>
           <li class="list-sidebar">
             <a href="/Docsite-HTML-Files/Rating.html" class="routing">
@@ -153,56 +150,74 @@
             </a>
           </li>
           <li class="list-sidebar">
-            <a href="/Docsite-HTML-Files/slider.html" class="routing">
+            <a href="/Docsite-HTML-Files/slider.html" class="routing active">
               Slider
             </a>
           </li>
         </ul>
       </aside>
       <main class="Alert-wrapper">
-        <h1>Modals</h1>
+        <h1>Sliders</h1>
         <p>
-          Use modal dialogs to ask for information that, when provided, could
-          significantly lessen users' work or effort. Modals can work
-          effectively when the information being requested or presented is
-          relevant or can streamline the completion of the current task.
+          Sliders consolidate images: While media on the page can draw attention
+          away from text, sliders put it all in one place to prevent
+          distractions. Users control content: Always allow users to proceed
+          through sliders at their own pace or skip them altogether if that's
+          not what they are looking for.
         </p>
-        <h1>Example of Modal</h1>
+        <h2>Simple Slider</h2>
         <div class="display-com-alert">
-          <img src="/images/modal.png" alt="daredevil" class="responsive-img" />
-        </div>
-        <h1>Live Working Of Modal</h1>
-        <div class="display-com-alert">
-          <div class="popup center">
-            <div class="icon">
-              <i class="fa fa-check"></i>
-            </div>
-            <div class="title">Success!!</div>
-            <div class="description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
-              nihil provident voluptatem nulla placeat
-            </div>
-            <div class="btn-div">
-              <div class="dismiss-btn">
-                <button id="dismiss-popup-btn">Dismiss</button>
-              </div>
-            </div>
+          <div class="slider-wrap">
+            <input type="range" min="0" max="1000" step="100" />
           </div>
         </div>
-        <div class="bottom-right">
-          <button id="open-popup-btn">Open Popup</button>
+        <div class="gist-github">
+          <script src="https://gist.github.com/Rohan-154/fa40e5f5dea641cbf27968a342652030.js"></script>
+        </div>
+        <h2>Range Slider</h2>
+        <div class="display-com-alert">
+          <div class="slider-wrap">
+            <input
+              type="range"
+              min="0"
+              max="1000"
+              step="100"
+              list="range-label"
+            />
+
+            <datalist id="range-label">
+              <option value="0">0%</option>
+              <option value="100"></option>
+              <option value="200"></option>
+              <option value="300"></option>
+              <option value="400"></option>
+              <option value="500">50%</option>
+              <option value="600"></option>
+              <option value="700"></option>
+              <option value="800"></option>
+              <option value="900"></option>
+              <option value="1000">100%</option>
+              <option></option>
+            </datalist>
+          </div>
+        </div>
+        <div class="gist-github">
+          <script src="https://gist.github.com/Rohan-154/8b0493df5945dfe1079bcba6681cb3f8.js"></script>
+        </div>
+        <h2>Range Slider With Icon</h2>
+        <div class="display-com-alert">
+          <div class="slider-wrap icon-slider">
+            <span class="slider-icon">
+              <i class="fas fa-volume-up"></i>
+            </span>
+            <input type="range" min="0" max="100" />
+          </div>
+        </div>
+        <div class="gist-github">
+          <script src="https://gist.github.com/Rohan-154/3322149b18c8604fb32822beb7820484.js"></script>
         </div>
       </main>
-      <div class="gist-github">
-        <script src="https://gist.github.com/Rohan-154/ec6b514eef35525bc81a508f74af442b.js"></script>
-      </div>
-      <h1>JavaScript</h1>
-      <div class="gist-github">
-        <script src="https://gist.github.com/Rohan-154/d827f321236ad6633e839d4ae260ed43.js"></script>
-      </div>
     </div>
-    <!-- footer -->
-
     <div class="footer-basic">
       <footer>
         <p class="signature">
@@ -218,9 +233,5 @@
         </div>
       </footer>
     </div>
-
-    <script src="/Docsite-JS/modal.js"></script>
   </body>
 </html>
-
-<!-- -->

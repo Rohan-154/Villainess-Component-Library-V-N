@@ -17,7 +17,8 @@
 @import url("/Components/typography.css");
 @import url("/Components/modal.css");
 @import url("/Components/Rating.css");
-@import url('/Components//Navigation.css');
+@import url('/Components/Navigation.css');
+@import url('/Components/slider.css');
 :root {
   --text-color: #333333;
   --danger-message-color: #ff4d4d;
@@ -160,10 +161,6 @@ h1,h2,h3,h4,h5,h6{
 }
 
 @media screen and (max-width: 750px) {
-  body {
-    /* max-width: 650px; */
-
-  }
   .gist-github::-webkit-scrollbar {
     display: none;
     overflow-y: scroll;
