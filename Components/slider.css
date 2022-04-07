@@ -1,0 +1,11 @@
+.slider-wrap{
+    width: 100vw;
+    display: flex;
+    gap: 0.7rem;
+}
+.slider-wrap>input{
+    width: 50vw;
+}
+.slider-icon{
+ 
+}
