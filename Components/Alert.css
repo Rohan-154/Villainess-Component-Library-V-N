@@ -37,17 +37,17 @@
     display: flex;
     flex-direction: column;
     gap: 15px;
-    border: 3px solid var(--light-gray);
+    border: 1px solid black;
     padding: 30px;
     justify-content: space-between;
-    align-items: center;
 }
 
 .link-text-primary {
     border-bottom: 2px solid var(--primary-color);
 }
-@media screen and (max-width: 750px){
-    .Alert-wrapper{
+
+@media screen and (max-width: 750px) {
+    .Alert-wrapper {
         margin-top: 30px;
-    } 
+    }
 }
